@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="200"/>
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="300"/>
+    <item
+        android:id="@+id/contact"
+        android:title="Contact"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="400"/>
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="100"/>
+
+
+</menu>
